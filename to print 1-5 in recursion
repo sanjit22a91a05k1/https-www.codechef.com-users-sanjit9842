@@ -1,0 +1,13 @@
+# include<stdio.h>
+void fun(i)
+{
+	if(i>5) // base case = condition
+		return ;
+		else
+	printf("%d ",i);
+	fun(i+1);  // ---- recursion call 
+}
+int main()
+{	
+	fun(1); // every time function calling will be starting value of loop
+}
