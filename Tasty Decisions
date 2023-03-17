@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1; i<=n; i++)
+    {
+        int x,y;
+        scanf("%d%d",&x,&y);
+        if(2*x>5*y)
+        {
+            printf("Chocolate\n");
+        }
+        else if(2*x<5*y)
+        {
+            printf("Candy\n");
+        }
+        else if(2*x==5*y)
+        {
+            printf("Either\n");
+        }
+    }
+}
+
