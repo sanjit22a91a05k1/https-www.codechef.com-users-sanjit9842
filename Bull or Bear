@@ -1,0 +1,23 @@
+# include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1; i<=n; i++)
+    {
+     int x,y;
+     scanf("%d%d",&x,&y);
+     if(y>x)
+     {
+         printf("PROFIT \n");
+     }
+     else if(x>y)
+     {
+        printf("LOSS \n"); 
+     }
+     else
+     {
+         printf("NEUTRAL \n");
+     }
+    }
+}
