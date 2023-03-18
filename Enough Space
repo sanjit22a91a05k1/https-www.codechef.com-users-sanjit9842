@@ -1,0 +1,19 @@
+# include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n; i++)
+    {
+        int n,x,y;
+        scanf("%d%d%d",&n,&x,&y);
+        if(n>=x+y*2)
+        {
+            printf("YES \n");
+        }
+        else
+        {
+            printf("NO \n");
+        }
+    }
+}
